@@ -3,9 +3,17 @@ html {
 }
 
 body {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   margin: 0px;
+  width: 867px;
+  height: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#app {
+  height: 100%;
 }
 
 /* Alignment styles for images, videos and iframes in editable regions */
@@ -49,3 +57,17 @@ body {
 [data-editable] .text-right {
     text-align: right;
 }
+
+.clear-fix:before,
+.clear-fix:after {
+  content: "";
+  display: table;
+}
+.clear-fix:after {
+  clear: both;
+}
+.clear-fix {
+  clear: both;
+  *zoom: 1;
+}
+
