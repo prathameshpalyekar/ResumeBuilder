@@ -18,12 +18,16 @@ export default function Education() {
                 <tr>
                   <td>Institute</td>
                   <td>:&nbsp;</td>
-                  <td>Computer Science, Visvesvaraya National Institute of Technology</td>
+                  <td data-editable data-name="edu1">
+                    <p style={{margin: 0}}>Computer Science, Visvesvaraya National Institute of Technology</p>
+                  </td>
                 </tr>
                 <tr>
                   <td>CGPA</td>
                   <td>:&nbsp;</td>
-                  <td>7.65/10</td>
+                  <td data-editable data-name="score1">
+                    <p style={{margin: 0}}>7.65/10</p>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -37,12 +41,16 @@ export default function Education() {
                 <tr>
                   <td>Institute</td>
                   <td>:&nbsp;</td>
-                  <td>Sathaye college , Mumbai</td>
+                  <td data-editable data-name="edu2">
+                    <p style={{margin: 0}}>Sathaye college , Mumbai</p>
+                  </td>
                 </tr>
                 <tr>
                   <td>Percentage</td>
                   <td>:&nbsp;</td>
-                  <td>81.67</td>
+                  <td data-editable data-name="score2">
+                    <p style={{margin: 0}}>81.67</p>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -56,12 +64,16 @@ export default function Education() {
                 <tr>
                   <td>Institute</td>
                   <td>:&nbsp;</td>
-                  <td>Parle Tilak Vidyalaya , Mumbai</td>
+                  <td data-editable data-name="edu3">
+                    <p style={{margin: 0}}>Parle Tilak Vidyalaya , Mumbai</p>
+                  </td>
                 </tr>
                 <tr>
                   <td>Percentage</td>
                   <td>:&nbsp;</td>
-                  <td>93.23</td>
+                  <td data-editable data-name="score3">
+                    <p style={{margin: 0}}>93.23</p>
+                  </td>
                 </tr>
               </tbody>
             </table>

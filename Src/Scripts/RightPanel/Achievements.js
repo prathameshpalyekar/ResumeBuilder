@@ -14,22 +14,38 @@ export default function Achievements() {
             <tr>
               <td style={{borderBottom: "1px solid lightgray"}}><FontIcon className="material-icons" color="gray">stars</FontIcon></td>
               <td style={{borderBottom: "1px solid lightgray"}}>&nbsp;</td>
-              <td style={{borderBottom: "1px solid lightgray"}}>Gold & Silver Medalist in HomiBhabha Young Scientist search competition</td>
+              <td style={{borderBottom: "1px solid lightgray"}} data-editable data-name="achievement1">
+                <p style={{margin: 0}}>
+                  Gold & Silver Medalist in HomiBhabha Young Scientist search competition
+                </p>
+              </td>
             </tr>
             <tr>
               <td style={{borderBottom: "1px solid lightgray"}}><FontIcon className="material-icons" color="gray">stars</FontIcon></td>
               <td style={{borderBottom: "1px solid lightgray"}}>&nbsp;</td>
-              <td style={{borderBottom: "1px solid lightgray"}}>Bagged 2nd rank in Physics Olympiad held in VNIT</td>
+              <td style={{borderBottom: "1px solid lightgray"}} data-editable data-name="achievement2">
+                <p style={{margin: 0}}>
+                  Bagged 2nd rank in Physics Olympiad held in VNIT
+                </p>
+              </td>
             </tr>
             <tr>
               <td style={{borderBottom: "1px solid lightgray"}}><FontIcon className="material-icons" color="gray">stars</FontIcon></td>
               <td style={{borderBottom: "1px solid lightgray"}}>&nbsp;</td>
-              <td style={{borderBottom: "1px solid lightgray"}}>Treasurer of Computer Science department for academic year 2012-2013</td>
+              <td style={{borderBottom: "1px solid lightgray"}} data-editable data-name="achievement3">
+                <p style={{margin: 0}}>
+                  Treasurer of Computer Science department for academic year 2012-2013
+                </p>
+              </td>
             </tr>
             <tr>
               <td><FontIcon className="material-icons" color="gray">stars</FontIcon></td>
               <td>&nbsp;</td>
-              <td>Bagged 3rd rank in 'Cryptocrux' , event based on cryptography in AXIS , 2013</td>
+              <td data-editable data-name="achievement4">
+                <p style={{margin: 0}}>
+                  Bagged 3rd rank in 'Cryptocrux' , event based on cryptography in AXIS , 2013
+                </p>
+              </td>
             </tr>
           </tbody>
         </table>
