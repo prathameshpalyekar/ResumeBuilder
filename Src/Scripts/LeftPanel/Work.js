@@ -11,46 +11,84 @@ export default function Work() {
       </div>
       <Stepper orientation="vertical" style={{marginLeft: 10}}>
         <Step>
-          <StepLabel completed icon={<FontIcon className="material-icons" color="gray">lens</FontIcon>}><b>Quantumgraph Solutions Pvt Ltd</b></StepLabel>
+          <StepLabel completed icon={<FontIcon className="material-icons" color="gray">lens</FontIcon>}>
+            <div data-editable data-name="company1">
+              <p>
+                <b>
+                  Quantumgraph Solutions Pvt Ltd
+                </b>
+              </p>
+            </div>
+          </StepLabel>
           <StepContent active style={{marginTop: -30, marginBottom: -36}}>
-            <div>
-            <p style={{marginBottom: 0, fontSize: 13}} >
-              <span style={{color: "gray", fontStyle: "italic"}}>Feb,&nbsp;2016 - present</span><br/>
-              Working as a lead front-end developer. Built company website using <b>React JS</b>. Took Major part in deciding 
-              architecture of project and deployment. Review all the front-end code going in production. Major part in adding
-              new technical features and designing product.
-            </p>
+            <div data-editable data-name="company1desc">
+              <p style={{marginBottom: 0, fontSize: 13}} >
+                <span style={{color: "gray", fontStyle: "italic"}}>Feb,&nbsp;2016 - present</span><br/>
+                Working as a lead front-end developer. Built company website using <b>React JS</b>. Took Major part in deciding 
+                architecture of project and deployment. Review all the front-end code going in production. Major part in adding
+                new technical features and designing product.
+              </p>
             </div>
           </StepContent>
         </Step>
         <Step>
-          <StepLabel disabled={false} icon={<FontIcon className="material-icons" color="gray">lens</FontIcon>}><b>FactSet Research Systems Inc </b></StepLabel>
+          <StepLabel disabled={false} icon={<FontIcon className="material-icons" color="gray">lens</FontIcon>}>
+            <div data-editable data-name="company2">
+              <p>
+                <b>
+                  FactSet Research Systems Inc 
+                </b>
+              </p>
+            </div>
+          </StepLabel>
           <StepContent active style={{marginTop: -30, marginBottom: -30}}>
-            <p style={{marginBottom: 0, fontSize: 13}}>
-              <span style={{color: "gray", fontStyle: "italic"}}>Jun,&nbsp;2014 - Jan,&nbsp;2016</span><br/>
-              Built customizable front end product which is compatible with all browsers and i-pad.
-              Worked on Content editor project which allows user to edit reports on web and save back to
-              server.The later project was developed using Angular with TypeScript.
-            </p>
+            <div data-editable data-name="company2desc">
+              <p style={{marginBottom: 0, fontSize: 13}}>
+                <span style={{color: "gray", fontStyle: "italic"}}>Jun,&nbsp;2014 - Jan,&nbsp;2016</span><br/>
+                Built customizable front end product which is compatible with all browsers and i-pad.
+                Worked on Content editor project which allows user to edit reports on web and save back to
+                server.The later project was developed using Angular with TypeScript.
+              </p>
+            </div>
           </StepContent>
         </Step>
         <Step>
-          <StepLabel disabled={false} icon={<FontIcon className="material-icons" color="gray">lens</FontIcon>}><b>Indian Institute of Technology Bombay</b></StepLabel>
+          <StepLabel disabled={false} icon={<FontIcon className="material-icons" color="gray">lens</FontIcon>}>
+            <div data-editable data-name="company3">
+              <p>
+                <b>
+                  Indian Institute of Technology Bombay
+                </b>
+              </p>
+            </div>
+          </StepLabel>
           <StepContent active style={{marginTop: -30, marginBottom: -30}}>
-            <p style={{marginBottom: 0, fontSize: 13}}>
-              <span style={{color: "gray", fontStyle: "italic"}}>Research Internship</span><br/>
-              Developed cost effective finger print scanner and application which converts the fingerprint image captured to binary image
-              using thresholding, thinning and image histogram equalization.
-            </p>
+            <div data-editable data-name="company3desc">
+              <p style={{marginBottom: 0, fontSize: 13}}>
+                <span style={{color: "gray", fontStyle: "italic"}}>Research Internship</span><br/>
+                Developed cost effective finger print scanner and application which converts the fingerprint image captured to binary image
+                using thresholding, thinning and image histogram equalization.
+              </p>
+            </div>
           </StepContent>
         </Step>
         <Step>
-          <StepLabel disabled={false} icon={<FontIcon className="material-icons" color="gray">lens</FontIcon>}><b>Office Box Software Pvt Ltd</b></StepLabel>
+          <StepLabel disabled={false} icon={<FontIcon className="material-icons" color="gray">lens</FontIcon>}>
+            <div data-editable data-name="company4">
+              <p>
+                <b>
+                  Office Box Software Pvt Ltd
+                </b>
+              </p>
+            </div>
+          </StepLabel>
           <StepContent active style={{marginTop: -30, marginBottom: -36}}>
-            <p style={{marginBottom: 0, fontSize: 13}}>
-              <span style={{color: "gray", fontStyle: "italic"}}>Industrial Internship</span><br/>
-              Developed Desktop application for vendors which help them to manage resources and bills.
-            </p>
+            <div data-editable data-name="company3desc">
+              <p style={{marginBottom: 0, fontSize: 13}}>
+                <span style={{color: "gray", fontStyle: "italic"}}>Industrial Internship</span><br/>
+                Developed Desktop application for vendors which help them to manage resources and bills.
+              </p>
+            </div>
           </StepContent>
         </Step>
         <Step>

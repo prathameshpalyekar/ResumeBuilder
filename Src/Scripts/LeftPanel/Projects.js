@@ -13,28 +13,34 @@ export default function Projects() {
           <tr>
             <td style={{borderBottom: "1px solid lightgray", paddingTop: 0, verticalAlign: "initial"}}><FontIcon className="material-icons" color="gray">label</FontIcon></td>
             <td style={{borderBottom: "1px solid lightgray"}}>&nbsp;</td>
-            <td style={{borderBottom: "1px solid lightgray"}}>
-              <b>Contract Bridge&nbsp;</b>(&nbsp;final year projet&nbsp;)<br/>
-              Built contract bridge game for desktop users using <b>C#</b>. The idea was to develop computer player using Artificial Intelligence
-              technique and intelligent decision making algorithm
+            <td style={{borderBottom: "1px solid lightgray"}} data-editable data-name="projects1">
+              <p>
+                <b>Contract Bridge&nbsp;</b>(&nbsp;final year projet&nbsp;)<br/>
+                Built contract bridge game for desktop users using <b>C#</b>. The idea was to develop computer player using Artificial Intelligence
+                technique and intelligent decision making algorithm
+              </p>
             </td>
           </tr>
           <tr>
             <td style={{borderBottom: "1px solid lightgray", paddingTop: 0, verticalAlign: "initial"}}><FontIcon className="material-icons" color="gray">label</FontIcon></td>
             <td style={{borderBottom: "1px solid lightgray"}}>&nbsp;</td>
-            <td style={{borderBottom: "1px solid lightgray"}}>
-              <b>Interactive, Enhanced Periodic table </b><br/>
-              Designed Interactive Periodic Table, <b>Android </b>application which gives detailed information
-              about each element and classify according to properties.
+            <td style={{borderBottom: "1px solid lightgray"}} data-editable data-name="projects2">
+              <p>
+                <b>Interactive, Enhanced Periodic table </b><br/>
+                Designed Interactive Periodic Table, <b>Android </b>application which gives detailed information
+                about each element and classify according to properties.
+              </p>
             </td>
           </tr>
           <tr>
             <td style={{paddingTop: 0, verticalAlign: "initial"}}><FontIcon className="material-icons" color="gray">label</FontIcon></td>
             <td>&nbsp;</td>
-            <td>
-              <b> Citizen Facilitation Centre</b><br/>
-              Designed a GUI application using <b>C#</b> for citizens that should help in handling complaints/grievances management system
-              and issues domicile certificates
+            <td data-editable data-name="projects3">
+              <p>
+                <b> Citizen Facilitation Centre</b><br/>
+                Designed a GUI application using <b>C#</b> for citizens that should help in handling complaints/grievances management system
+                and issues domicile certificates
+              </p>
             </td>
           </tr>
         </tbody>
