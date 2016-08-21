@@ -3,6 +3,6 @@ this projects allows you to edit resume on the fly and let you add additional co
 
 To run that demo on your own computer:
 
-* `npm install`
-* `npm run storybook`
+* `sudo npm install`
+* `npm start`
 * Visit http://localhost:8000/
