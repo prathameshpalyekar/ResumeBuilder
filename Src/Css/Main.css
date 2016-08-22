@@ -16,6 +16,20 @@ body {
   height: 100%;
 }
 
+.icon-button {
+  min-width: 20px !important;
+}
+
+.icon {
+  color: gray;
+  margin-top: -5px;
+  font-size: 30px;
+  opacity: 0.5;
+  margin-left: -2px !important;
+  vertical-align: baseline !important;
+  font-weight: bold;
+}
+
 /* Alignment styles for images, videos and iframes in editable regions */
 
 /* Center (default) */
